@@ -11,7 +11,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host       = 'smtp@gmail.com';                       //gmail SMTP server set to send through
+    $mail->Host       = 'smtp.gmail.com';                       //gmail SMTP server set to send through
     $mail->SMTPAuth   = true;
     $mail->Username   = 'akashdarock@gmail.com';                     //SMTP username (your gmail account)
     $mail->Password   = 'pastaaastha54321';                               //SMTP password (your gmail password or app password)
@@ -20,7 +20,7 @@ try {
 
     //Recipients
     $mail->setFrom('akashdarock@gmail.com', 'Mailer');         //Set the sender of the message (your email address)
-    $mail->addAddress('akashdarock@gmail.com', 'Joe User');     //Add a recipient (your bae's email address)
+    $mail->addAddress('2405785@kiit.ac.in', 'Joe User');     //Add a recipient (your bae's email address)
 
     //Content
     $mail->isHTML(true);
