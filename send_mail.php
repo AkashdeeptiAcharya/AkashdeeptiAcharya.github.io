@@ -11,7 +11,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';                       //gmail SMTP server set to send through
+    $mail->Host       = 'smtp@gmail.com';                       //gmail SMTP server set to send through
     $mail->SMTPAuth   = true;
     $mail->Username   = 'akashdarock@gmail.com';                     //SMTP username (your gmail account)
     $mail->Password   = 'pastaaastha54321';                               //SMTP password (your gmail password or app password)
